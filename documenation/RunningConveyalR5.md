@@ -2,25 +2,19 @@
 
 ## System Dependencies
 
-### Preliminaries
-
-```sh
-sudo apt-get install curl zip unzip git
-```
-
-#### Installing Docker
+### Installing Docker
 
 Please see the official instructions [here](https://docs.docker.com/engine/install/)
 
-#### Installing Docker Compose
+### Installing Docker Compose
 
 Please see the official instructions [here](https://docs.docker.com/compose/install/)
 
-## Java Build Environment
+### Java Build Environment
 
 The following steps will enable you to build the R5 JAR file.
 
-### Install SDKMAN
+#### Install SDKMAN
 
 The following instructions use [SDKMAN](https://github.com/sdkman/sdkman-cli).
 
@@ -32,7 +26,7 @@ The following instructions use [SDKMAN](https://github.com/sdkman/sdkman-cli).
 curl -s https://get.sdkman.io | bash
 ```
 
-### Install Java
+#### Install Java
 
 From SDKMAN's usage [page](https://sdkman.io/usage)
 
@@ -40,7 +34,7 @@ From SDKMAN's usage [page](https://sdkman.io/usage)
 sdk install java
 ```
 
-### Install Gradle
+#### Install Gradle
 
 From Gradle's install [page](https://gradle.org/install/#with-a-package-manager)
 
