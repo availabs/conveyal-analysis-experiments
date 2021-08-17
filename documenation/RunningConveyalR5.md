@@ -69,6 +69,16 @@ The above should create the following file: `build/libs/r5-v6.4.all.jar`
 
 ## R5 with MongoDB in Docker
 
+### Preliminaries 3
+
+#### Installing Docker
+
+Please see the official instructions [here](https://docs.docker.com/engine/install/)
+
+#### Installing Docker Compose
+
+Please see the official instructions [here](https://docs.docker.com/compose/install/)
+
 ### Fix the configuration file
 
 The _analysis.properties.docker_ file is missing a required option.
