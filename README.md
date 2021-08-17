@@ -1,3 +1,3 @@
 # Conveyal Analysis Experiments
 
-See the documentation [directory](/documentation)
+See the documentation [directory](https://github.com/availabs/conveyal-analysis-experiments/tree/main/documenation)
