@@ -2,13 +2,21 @@
 
 ## System Dependencies
 
-## Java Build Environment
-
-### Preliminaries 1
+### Preliminaries
 
 ```sh
-sudo apt-get install curl zip unzip
+sudo apt-get install curl zip unzip git
 ```
+
+#### Installing Docker
+
+Please see the official instructions [here](https://docs.docker.com/engine/install/)
+
+#### Installing Docker Compose
+
+Please see the official instructions [here](https://docs.docker.com/compose/install/)
+
+## Java Build Environment
 
 The following steps will enable you to build the R5 JAR file.
 
@@ -42,12 +50,6 @@ sdk install gradle
 
 ## Get the source code
 
-### Preliminaries 2
-
-```sh
-sudo apt-get install git
-```
-
 ```sh
 git clone https://github.com/conveyal/r5.git
 ```
@@ -68,16 +70,6 @@ gradle clean build shadowJar -x test
 The above should create the following file: `build/libs/r5-v6.4.all.jar`
 
 ## R5 with MongoDB in Docker
-
-### Preliminaries 3
-
-#### Installing Docker
-
-Please see the official instructions [here](https://docs.docker.com/engine/install/)
-
-#### Installing Docker Compose
-
-Please see the official instructions [here](https://docs.docker.com/compose/install/)
 
 ### Fix the configuration file
 
