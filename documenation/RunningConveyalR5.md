@@ -1,6 +1,52 @@
 # Running Conveyal R5
 
+## System Dependencies
+
+## Java Build Environment
+
+### Preliminaries 1
+
+```sh
+sudo apt-get install curl zip unzip
+```
+
+The following steps will enable you to build the R5 JAR file.
+
+### Install SDKMAN
+
+The following instructions use [SDKMAN](https://github.com/sdkman/sdkman-cli).
+
+> SDKMAN is a tool for managing parallel Versions of multiple Software
+> Development Kits on any Unix based system. It provides a convenient command
+> line interface for installing, switching, removing and listing Candidates.
+
+```sh
+curl -s https://get.sdkman.io | bash
+```
+
+### Install Java
+
+From SDKMAN's usage [page](https://sdkman.io/usage)
+
+```sh
+sdk install java
+```
+
+### Install Gradle
+
+From Gradle's install [page](https://gradle.org/install/#with-a-package-manager)
+
+```sh
+sdk install gradle
+```
+
 ## Get the source code
+
+### Preliminaries 2
+
+```sh
+sudo apt-get install git
+```
 
 ```sh
 git clone https://github.com/conveyal/r5.git
@@ -106,6 +152,6 @@ To run MongoDB in Docker with authentication, the following steps are required:
    connect to MongoDB may fail because the user may not yet be created.
    R5 will re-attempt connection succeed.
 
-3. If you are running the Conveyal analysis-ui, you will need to update the MongoDB URL.
+3. To run the Conveyal analysis-ui, you must update the MongoDB URL in the .env file:
 
    `MONGODB_URL=mongodb://root:password@127.0.0.1:27017/analysis?authSource=admin`
