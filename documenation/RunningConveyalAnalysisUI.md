@@ -6,7 +6,7 @@
 
 See the official instructions [here](https://nodejs.org/en/download/package-manager/)
 
-For Ubuntu, form the NodeSource [instructions](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions)
+For Ubuntu, from the NodeSource [instructions](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions)
 
 ```sh
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
